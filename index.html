@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reshma personal portfolio website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- head section-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Mohammad Reshma<i class="fa-regular fa-chess-queen"></i></h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#educate">EDUCATION</a></li>
+                        <li><a href="#skill">TECHNICAL SKILLS</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+        
+            <div class="header-text">
+                <p>Hello world</p>
+                <h1>Hi, i'm <span>Mohammad Reshma</span> <br>from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section-->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img  class="image-fluid" src="images/reshu4.jpeg" alt="">
+                    </div>
+
+                    <div class="about-col-2">
+                        <h1 class="sub-title">ABOUT ME</h1>
+                        <p>My self Mohammad Reshma .I have recently completed my B.tech (Computer Science of Engineering) in Nimra College of Enginneing and Technology. I’m Passionate to work in an organization which provides environment for growth with competent and strong leadership and achieve a good position by doing satisfying work in the IT field. I strongly focused to complete the task in the fast-faced environment. I have urge for learning new technologies.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Hobbies</p>
+                                <p class="tab-links" onclick="opentab('experience')">Languages Can Speak</p>
+                                <p class="tab-links" onclick="opentab('education')">Personal Information </p>
+                            </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Browsing</span><br>internet</li>
+                            <li><span>Listening to</span><br>Music</li>
+                            <li><span>Passionate to learn</span><br>New Things</li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>English</li>
+                            <li>Hindi</li>
+                            <li>Urdu</li>
+                            <li>Telugu</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            
+                            <li><span>Gender</span><br>Female</li>
+                            <li><span>Date of Birth</span><br>06-01-2001</li>
+                            
+                            <li><span>Nationality</span><br>Indian</li>
+                            <li><span>Maritial status</span><br>Unmarried</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- education section-->
+
+        <div id="educate">
+            <div class="container">
+                <i class="fa-solid fa-graduation-cap"></i><h1 class="sub-title">Education</h1>
+                <div class="education-list">
+                    <div>
+                        <h2 style="color:palevioletred">Jawaharlal Nehru Technological University( Kakinada )</h2>
+                        <span>2019-2023</span>
+                        <h4>Computer science pf enginnnering</h4>
+                        <span>GPA : 6.0</span>
+                        
+                    </div>
+        
+                    <div>
+                        <h2 style="color:palevioletred">Sri Chaitanya Co.ed Junior College</h2>
+                        <span>2017-2019</span>
+                        <h4>intermediate (MPC)</h4>
+                        <span>GPA : 8.9</span>
+                        
+                    </div>
+        
+                    <div>
+                        <h2 style="color:palevioletred">Rushi Vidhya Sadhan</h2>
+                        <span>2016-2017</span>
+                        <h4>school (SSC)</h4>
+                        <span>GPA : 9.3</span>
+                        
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+
+
+    <!-- projects section-->
+
+        <div id="projects">
+            <div class="container">
+                <i class="fa-solid fa-computer"></i><h1 class="sub-title">Projects</h1>
+                <div class="project-list">
+                    <div>
+                        <h2 style="color:palevioletred">Missing child identification system using Deep Learning And Multiclass SVM :</h2>
+                        <p>A deep Learning methodology is used for identifying The reported missing child from the photos Of multitude of children available, with the Help of face recognition.</p>
+                        
+                    </div>
+        
+                    <div>
+                        <h2 style="color:palevioletred">Women safety measures using IOT and Open source technology (mini project) : </h2>
+                        <p>An IOT-based smartSafety device for women and can be used to detect any such situations automatically and notify the appropriate parties. it will help womens when they are in danger.</p>
+                        
+                    </div>
+        
+                    <div>
+                        <h2 style="color:palevioletred">Ecommernce Website :</h2>
+                        <p>I had created an Ecommernce website using HTML,CSS,
+                            Javascript, a framework Bootstrap for Front-end and PHP , MYSQL for  Back-end.</p>
+                        
+                    </div>
+
+                    <div>
+                        <h2 style="color:palevioletred">Personal Portfolio:</h2>
+                        <p>I had created my Personal Portfolio website using HTML,CSS. Scrutinize it in my GITHUB .</p>
+                            <p>GITHUB: <span><a href=https://github.com/reshmamohammad6>github.com/reshmamohammad6</a></span></p>
+
+                        
+                    </div>
+
+                    <div>
+                        <h2 style="color:palevioletred">Personal Portfolio (Responsive): </h2>
+                        <p>I had created Responsive Personal Portfolio website using html,css &
+                            Javascript Scrutinize it in my GITHUB .</p>
+                            <p>GITHUB: <span><a href=https://github.com/reshmamohammad6>github.com/reshmamohammad6</a></span></p>
+
+                        
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div id="skill">
+            <div class="container">
+                <i class="fa-solid fa-code"></i><h1 class="sub-title">Technical Skills</h1>
+                <div class="Technical-list">
+                    <div>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVA</li>
+                            <li>JAVASCRIPT</li>
+                            <li>MYSQL</li>
+                            <li>PHP</li>
+                            
+
+                        </ul>
+                        
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+
+
+    <!-- contact section-->
+        
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Leave a message</h1>
+                        
+                        <span style="font-size: 19px; color:darkcyan">I love to hear form you</span>
+                        <p>contact@gmail.com</p>
+                        <p>012345678</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-left">
+                        <form onsubmit="Mail(); reset(); return false;">
+                            Name: <input type="text" name="name" placeholder="your name" id="Name" required>
+                            Email:<input type="email" name="email" placeholder="your email" id="Email" required>
+                            Message:<textarea name="message" rows="6" placeholder="your message" id="Message"></textarea>
+                            <button  type="submit" class="btn btn2">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+        <div class="copyright">
+            <p>© copyright code with love <i class="fa-solid fa-heart"></i> by Reshma Mohammad</p>
+        </div>
+</div>
+
+
+<a id="scrollUp" href="#header" style="position: fixed; z-index: 2147483647;"><i class="fa-solid fa-arrow-up"></i></a></a>
+
+   </div> 
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script>
+    function Mail(){
+        let = name = document.getElementById("Name").value;
+        let = email = document.getElementById("Email").value;
+        let = message = document.getElementById("Message").value;
+
+        Email.send({
+    
+    secureToken : "fa0e6cca-ba21-43c7-a29c-b627c70fa072",
+    
+    To : 'zakapplestoreindia@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact Form Enquiry ",
+    Body : "Name: " + name + "<br> Email: "  + email +  "<br> Message: " + message
+
+}).then(
+  message => alert("message sent succesfully")
+);
+    }
+   </script>
+
+   <script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+   </script>
+   <script>
+    var sidemenu = document.getElementById('sidemenu');
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+   </script>
+</body>
+</html>
